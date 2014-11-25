@@ -1,0 +1,27 @@
+prototype:
+    - 'clean:prototype'
+    - 'copy:prototype'
+    - 'sass:prototype'
+    - 'preprocess:build'
+    - 'express:prototype'
+    - 'open'
+    - 'watchPrototype'
+dev:
+    - 'clean:development'
+    - 'copy:development'
+    - 'requirejs:development'
+    - 'sass:development'
+    - 'watchDevelopment'
+
+build:
+    - 'clean:production'
+    - 'copy:production'
+    - 'imagemin:production'
+    - 'sass:production'
+    - 'requirejs:production'
+
+optimize:
+    - 'imagemin:originals'
+
+default:
+    - 'build'

@@ -1,0 +1,66 @@
+#bg1, #bg2, #bg3, #bg4, #bg5 {
+    z-index: 50;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: url(/resources/images/firstBG.jpg) repeat 0 0;
+    background-size: cover;
+}
+
+#bg2 {
+    z-index: 40;
+
+    background: url(/resources/images/thirdBG.jpg) repeat 0 0;
+}
+
+#bg3 {
+    z-index: 30;
+
+    background: url(/resources/images/fourthBG.jpg) repeat 0 0;
+}
+
+#bg4 {
+    z-index: 20;
+
+    background: url(/resources/images/fifthBG.jpg) repeat 0 0;
+}
+
+#bg5 {
+    z-index: 10;
+
+    background: url(/resources/images/lastBG.jpg) repeat 0 0;
+}
+
+
+.skrollable {
+    position: absolute;
+    z-index: 100;
+}
+
+.text-content {
+    position: relative;
+    z-index: 200;
+    top: 0;
+    left: 0;
+}
+
+.containersection {
+    position: relative;
+}
+
+#scrollbar {
+    position: fixed;
+    z-index: 300;
+    right: 2px;
+
+    width: 6px;
+    height: 50px;
+
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 3px;
+    background: #444444;
+    background: rgba(0,0,0,0.6);
+}
