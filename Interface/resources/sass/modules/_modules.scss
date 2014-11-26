@@ -1,3 +1,7 @@
+body {
+    height: 2496px!important;
+}
+
 #bg1, #bg2, #bg3, #bg4, #bg5 {
     z-index: 50;
     top: 0;
@@ -64,3 +68,42 @@
     background: #444444;
     background: rgba(0,0,0,0.6);
 }
+
+.imagebox {
+    padding: 0;
+}
+
+.text-container {
+    padding: ($column-gutter/2);
+    img {
+        width: 100%;
+    }
+}
+
+.orange {
+    background-color: rgba(244, 219, 178, 0.5);
+}
+
+.white {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.gray {
+    background-color: rgba(200, 208, 229, 0.5);
+}
+
+.brown {
+    background-color: rgba(173, 71, 9, 0.5);
+}
+
+.blue {
+    background-color: rgba(47, 123, 185, 0.5);
+}
+
+.side {
+    margin-bottom: ($column-gutter/2);
+}
+
+.containersection {
+    padding: ($column-gutter) 0;
+}
